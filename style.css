@@ -129,9 +129,20 @@ a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+#skillbar{
+  background-color: orange;
+    padding: 10px; /* Tambahkan padding jika diperlukan */
+    border-radius: 5px; 
+}
+#row align-middle{
+  background-color: orange;
+}
 
 .team-member figure:hover figcaption ul li a:hover {
   color: rgba(49, 49, 49, 0.97);
+}
+.col-6 skills{
+  background-color: orange;
 }
 
 .team-member figure:hover img {
@@ -191,7 +202,8 @@ a:hover {
   height: 100%;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   position: absolute;
-  bottom: 0;
+  bottom
+: 0;
 }
 
 .jumbotron .display-4 {
@@ -228,6 +240,7 @@ a:hover {
   color: orange;
   margin-top: 15px;
 }
+
 
 .me {
   width: 400px;
@@ -690,6 +703,7 @@ body {
   .left-align {
     text-align: left;
     font-size: 100px;
+  }
 
   .contact {
     margin-top: 100px;
@@ -983,6 +997,7 @@ bodys {
 .separator {
   width: 30%;
 }
+
 
 .title {
   margin-top: 100px;
